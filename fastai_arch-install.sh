@@ -4,7 +4,7 @@
 #I might have a setup a little different than yours so things might not work for you
 # Pull requests welcome.  
 sudo pacman -S tmux cudnn
-pacaur -y anaconda cuda python-theano python-keras
+pacaur -y anaconda2 cuda python-theano python-keras
 echo "export PATH=\"/opt/anaconda/bin:\$PATH\"" >> ~/.profile
 sudo conda install -y bcolz
 sudo conda upgrade -y --all
